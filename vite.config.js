@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/project-tz_dental_clinic/',
   root: '.',
   build: {
     outDir: 'dist',
